@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+@font-face {
+    font-family: Bigger;
+    src: url(font/BiggerDisplay.otf);
+  }
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #fafafa;
+}
+.main{
+    display: flex;
+    height: 100%;
+    box-shadow:
+  1.9px 11.5px 5.2px rgba(0, 0, 0, 0.028),
+  4.1px 24px 11.9px rgba(0, 0, 0, 0.04),
+  7.4px 43.7px 24px rgba(0, 0, 0, 0.052),
+  20px 118px 76px rgba(0, 0, 0, 0.08);
+}
+
+.form-container {
+    width: 100%;
+    max-width: 500px;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 0px 20px 20px 0px;
+    text-align: left;
+    display: flex;
+    
+}
+
+h1 {
+    margin-bottom: 20px;
+    margin-right: 40px;
+    color: #fafafa;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Bigger','Poppins';
+}
+/* input[type="radio"]{
+    display: none;
+   
+} */
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555555;
+    font-size: 20px;
+}
+
+.radio-group label {
+    display: inline-block;
+    margin-right: 15px;
+    font-weight: bold;
+    font-family: 'Poppins';
+
+}
+
+.main{
+    display: flex;
+}
+.left-container{
+    border-radius: 20px 0px 0px 20px;
+    background-color: #6e8efb;
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    
+}
+
+input[type="text"],
+input[type="tel"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #dddddd;
+    border-radius: 20px;
+    background-color: #fafafa;
+    font-size: 1rem;
+    transition: border 0.3s;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+input[type="text"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+    border-color: #6e8efb;
+    outline: none;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #6e8efb;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: ease-out 0.5s;
+}
+
+
+
+
+.btn{
+    background: #303439;
+    box-shadow: inset 0 0 200px 0 #6e8efb;
+    }
+    .btn:hover{
+    box-shadow: inset 0 0 0 0 #6e8efb;
+    }
+
+
+
+
+    

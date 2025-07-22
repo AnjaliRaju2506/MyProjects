@@ -1,0 +1,67 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f1f5f9;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 50px;
+  min-height: 100vh;
+}
+
+.calendar {
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 360px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h1 {
+  font-size: 20px;
+  color: #111827;
+}
+
+.header button {
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.header button:hover {
+  background-color: #2563eb;
+}
+
+.weekdays, .days {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 5px;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.weekdays div {
+  font-weight: bold;
+  color: #374151;
+}
+
+.days div {
+  padding: 10px 0;
+  background-color: #e5e7eb;
+  border-radius: 5px;
+  cursor: default;
+}
+
+.days .today {
+  background-color: #3b82f6;
+  color: white;
+  font-weight: bold;
+}
